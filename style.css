@@ -1,0 +1,29 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#gameContainer {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: lightblue;
+    margin: auto;
+    top: 200px;
+}
+
+#player {
+    position: absolute;
+    background-color: red;
+    top: 100px;
+    left: 100px;
+}
+
+#obstacle {
+    position: relative;
+    background-color: tan;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    top: 100px;
+}
